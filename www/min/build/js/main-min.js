@@ -519,6 +519,7 @@ LG.Browser.configureScroll = function(){
 	$(document).bind("touchstart", function(e){
 		var currentY = e.originalEvent.touches ? e.originalEvent.touches[0].pageY : e.pageY;
 		LG.Browser.touchY = currentY;
+		LG.EventDispatcher.trigger("hideerror");
 	});
 	$(document).bind("touchmove", function(e) {
 		var currentY, allowScroll = true, dir, $target, containerHeight, textHeight, scrollTop, baseTop, atBase;
@@ -7688,6 +7689,8 @@ LG.WriteView = LG.AMenuView.extend({
 		this.listenTo(LG.EventDispatcher, LG.Events.ERROR_ROW, $.proxy(this.showErrorRow, this));
 		this.listenTo(LG.EventDispatcher, LG.Events.FORCE_LOGO, $.proxy(this.forceLogo, this));
 		this.listenTo(LG.EventDispatcher, LG.Events.RESIZE, $.proxy(this.resize, this));
+		this.listenTo(LG.EventDispatcher, "hideerror", $.proxy(this.resetError, this));
+											
 	},
 	template:"tpl_write",
 	showName:"write",

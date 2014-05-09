@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4A78DC88-2E17-459C-B5E6-5C5FE621AC6E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloWorld</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C53470F0-22E7-406B-8B92-39B80C1EF208</key>
+		<string>https://github.com/jgrindall/logojs_pg.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/HelloWorld.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C53470F0-22E7-406B-8B92-39B80C1EF208</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jgrindall/logojs_pg.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C53470F0-22E7-406B-8B92-39B80C1EF208</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C53470F0-22E7-406B-8B92-39B80C1EF208</string>
+			<key>IDESourceControlWCCName</key>
+			<string>logojs_pg</string>
+		</dict>
+	</array>
+</dict>
+</plist>
